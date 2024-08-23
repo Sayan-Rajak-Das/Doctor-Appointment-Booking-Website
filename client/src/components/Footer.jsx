@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <section class="relative overflow-hidden py-10">
+        <section class="relative w-full overflow-hidden py-10 bg-gradient-to-r from-[#eaf4bb] via-[#e1f8fb] to-[#c6c0fe]">
             <div class="relative z-10 mx-auto max-w-7xl px-4">
                 <div class="-m-6 flex flex-wrap">
                     <div class="w-full p-6 md:w-1/2 lg:w-5/12">
