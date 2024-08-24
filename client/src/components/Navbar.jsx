@@ -82,7 +82,7 @@ const Navbar = () => {
 
             {/* mobile link options */}
             <div className={`px-4 bg-black py-5 rounded-sm text-center ${open ? "" : "hidden"}`}>
-                <ul className='text-white flex flex-col gap-3'>
+                <ul className='text-white flex flex-col gap-4'>
                     {navLinks.map((item, i) =>
                         <li key={i}><NavLink className={(e) => { return e.isActive ? "text-[#555eff] border-b-2 border-[#2930bc] px-1" : "px-1" }} to={item.path}>{item.display}</NavLink></li>
                     )}

@@ -22,7 +22,7 @@ const Login = () => {
             <form className='py-4 px-2 md:py-0 md:px-0 flex flex-col gap-9' action="">
             <input className='w-full border-b-2 border-solid focus:border-b-primaryColor focus:outline-none text-xl rounded-md p-4 px-4  border-gray-300 placeholder-gray-600' type="email" name='email' placeholder='Enter your email' value={formData.email} onChange={handleInputChange} required />
             <input className='w-full border-b-2 border-solid focus:border-b-primaryColor focus:outline-none text-xl rounded-md p-4 px-4  border-gray-300 placeholder-gray-600' type="password" name='password' placeholder='Enter your password' value={formData.password} onChange={handleInputChange} required />
-            <button type='submit' className='bg-primaryColor text-white rounded-md p-2 text-lg hover:bg-blue-500 duration-150'>Login</button>
+            <button type='submit' className='bg-primaryColor text-white rounded-md p-2 text-lg lg:hover:bg-[#324ece] duration-150'>Login</button>
             <p className='text-textColor'>Don&apos;t have an account ?<Link className='text-primaryColor font-medium ml-1' to="/signup"> Register</Link></p>
             </form>
         </div>
