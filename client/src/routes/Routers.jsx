@@ -4,9 +4,9 @@ import Services from "../pages/Services";
 import FindDoctor from "../pages/doctors/FindDoctor";
 import DoctorDetails from '../pages/doctors/DoctorDetails';
 import Contact from "../pages/Contact";
-import Login from "../auth/Login";
+import Login from "../pages/auth/Login";
 import { Route, Routes } from 'react-router-dom';
-import SignUp from '../auth/SignUp';
+import SignUp from '../pages/auth/SignUp';
 
 const Routers = () => {
     

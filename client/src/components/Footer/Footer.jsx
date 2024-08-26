@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <section className="relative w-full overflow-hidden py-10 bg-gradient-to-r from-[#eaf4bb] via-[#e1f8fb] to-[#c6c0fe]">
+        <section className="relative w-full overflow-hidden py-10 bg-[url(hero-bg.png)] bg-no-repeat bg-cover">
             <div className="relative z-10 mx-auto max-w-7xl px-4">
                 <div className="-m-6 flex flex-wrap">
                     <div className="w-full p-6 md:w-1/2 lg:w-5/12">
@@ -66,7 +66,7 @@ const Footer = () => {
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
                             <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
-                                Support
+                                I want to
                             </h3>
                             <ul>
                                 <li className="mb-4">
@@ -74,7 +74,7 @@ const Footer = () => {
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         href="#"
                                     >
-                                        Account
+                                        Find a Doctor
                                     </a>
                                 </li>
                                 <li className="mb-4">
@@ -82,7 +82,7 @@ const Footer = () => {
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         href="#"
                                     >
-                                        Help
+                                        Appointment
                                     </a>
                                 </li>
                                 <li className="mb-4">
@@ -90,7 +90,7 @@ const Footer = () => {
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         href="#"
                                     >
-                                        Contact Us
+                                        FInd a Location
                                     </a>
                                 </li>
                                 <li>
@@ -98,7 +98,7 @@ const Footer = () => {
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
                                         href="#"
                                     >
-                                        Customer Support
+                                        Get a Opinion
                                     </a>
                                 </li>
                             </ul>

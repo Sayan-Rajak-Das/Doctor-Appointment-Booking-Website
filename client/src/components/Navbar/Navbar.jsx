@@ -49,7 +49,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='bg-gradient-to-r from-[#eaf4bb] via-[#e1f8fb] to-[#c6c0fe]' ref={navbarRef}>
+        <div className='bg-[url(header-bg.png)] bg-no-repeat bg-cover' ref={navbarRef}>
             <nav className='flex items-center max-w-[1536px] mx-auto justify-between px-2 lg:px-0 h-[80px]'>
                 <div className="logo flex items-center gap-2">
                     <img className='h-10 w-10' src="./logo.png" alt="" />
