@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
+    const year = new Date().getFullYear();
     return (
         <section className="relative w-full overflow-hidden py-10 bg-[url(hero-bg.png)] bg-no-repeat bg-cover">
             <div className="relative z-10 mx-auto max-w-7xl px-4">
@@ -14,125 +16,125 @@ const Footer = () => {
                             </div>
                             <div>
                                 <p className="mb-4  text-base font-medium">
-                                    The Tailwind CSS Component library
+                                    The Medicare Online Service
                                 </p>
                                 <p className="text-sm text-gray-600">
-                                    © Copyright 2022. All Rights Reserved by Medicare.
+                                    © Copyright {year}. All Rights Reserved by Medicare.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
-                                Company
+                            <h3 className="tracking-px mb-9  text-sm font-semibold uppercase text-gray-500">
+                                Quick links
                             </h3>
                             <ul>
                                 <li className="mb-4">
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="#"
                                     >
                                         Features
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="#"
                                     >
                                         Pricing
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="#"
                                     >
                                         Affiliate Program
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="#"
                                     >
                                         Press Kit
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9  text-sm font-semibold uppercase text-gray-500">
                                 I want to
                             </h3>
                             <ul>
                                 <li className="mb-4">
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="/doctors"
                                     >
                                         Find a Doctor
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="#"
                                     >
                                         Appointment
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="#"
                                     >
                                         FInd a Location
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="/contact"
                                     >
                                         Get a Opinion
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-3/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9  text-sm font-semibold uppercase text-gray-500">
                                 Legals
                             </h3>
                             <ul>
                                 <li className="mb-4">
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="#"
                                     >
                                         Terms &amp; Conditions
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="#"
                                     >
                                         Privacy Policy
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a
+                                    <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        href="#"
+                                        to="#"
                                     >
                                         Licensing
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
