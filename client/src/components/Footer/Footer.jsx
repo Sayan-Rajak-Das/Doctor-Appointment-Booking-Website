@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     const year = new Date().getFullYear();
     return (
-        <section className="relative w-full overflow-hidden py-10 bg-[url(hero-bg.png)] bg-no-repeat bg-cover">
+        <section className="relative w-full overflow-hidden py-10 bg-[url(../../../public/hero-bg.png)] bg-no-repeat bg-cover">
             <div className="relative z-10 mx-auto max-w-7xl px-4">
                 <div className="-m-6 flex flex-wrap">
                     <div className="w-full p-6 md:w-1/2 lg:w-5/12">
                         <div className="flex h-full flex-col justify-between">
                             <div className="mb-4 inline-flex gap-2 items-center">
-                            <img className='h-7 w-8' src="./logo.png" alt="" />
+                            <img className='h-7 w-8' src="../../../public/logo.png" alt="" />
                             <span className='text-lg font-semibold'>Medicare</span>
                                 
                             </div>

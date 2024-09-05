@@ -49,10 +49,10 @@ const Navbar = () => {
     }
 
     return (
-        <div className='bg-[url(header-bg.png)] bg-no-repeat bg-cover' ref={navbarRef}>
+        <div className='bg-[url(../../../public/header-bg.png)] bg-no-repeat bg-cover' ref={navbarRef}>
             <nav className='flex items-center max-w-[1536px] mx-auto justify-between px-2 lg:px-0 h-[80px]'>
                 <div className="logo flex items-center gap-2">
-                    <img className='h-10 w-10' src="./logo.png" alt="" />
+                    <img className='h-10 w-10' src="../../../public/logo.png" alt="" />
                     <span className='text-2xl font-semibold'>Medicare</span>
                 </div>
                 <ul className='hidden lg:flex gap-10 text-xl font-semibold'>
