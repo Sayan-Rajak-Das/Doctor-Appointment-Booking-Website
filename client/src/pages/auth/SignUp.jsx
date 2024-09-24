@@ -40,14 +40,14 @@ const SignUp = () => {
         setLoading(true);
 
         try {
-            const res = await fetch(`${BASE_URL}/auth/register`,
+            const res = await fetch(`${BASE_URL}/auth/signup`,
                 {
                     method: 'post',
                     headers: {
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify(formData)
-                })
+                });
 
                 const {message} = await res.json();
 
@@ -60,8 +60,8 @@ const SignUp = () => {
         } catch (err){
             toast.error(err.message);
             setLoading(false);
-        }
-    }
+        };
+    };
 
     return (
         <section className='container px-5 xl:px-0 flex justify-between items-center'>
